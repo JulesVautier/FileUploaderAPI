@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from FileUploader.app.serializers import UserSerializer, GroupSerializer
+from FileUploaderAPI.app.migrations.serializers import UserSerializer, GroupSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
